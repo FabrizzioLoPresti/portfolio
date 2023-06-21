@@ -32,6 +32,7 @@ export default function RootLayout({
 // - Add a favicon
 // - Responsive Web Design -> Skills
 // - Agregar animacion al Hero
+// - Arreglar Responsive que no se que mierda pasa
 // - Custom Cursor
 // - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
 // - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS

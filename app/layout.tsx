@@ -30,9 +30,9 @@ export default function RootLayout({
 
 // TODO
 // - Add a favicon
-// - Responsive Web Design -> Skills
+// - Responsive Web Design -> Skills Overflox en X
+// - Error no llega al Body ToUpButton
 // - Agregar animacion al Hero
-// - Arreglar Responsive que no se que mierda pasa
 // - Custom Cursor
 // - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
 // - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS

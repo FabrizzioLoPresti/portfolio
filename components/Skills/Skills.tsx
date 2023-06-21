@@ -2,10 +2,11 @@
 
 import { motion } from "framer-motion";
 import Skill from "./Skill";
+import { Skill as ISkill } from "@/interfaces/Skill";
 
 type Props = {};
 
-const techs = [
+const techs: ISkill[] = [
   { tech: 'HMTL', percentage: 95, urlImage: 'https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png' },
   { tech: 'CSS', percentage: 100, urlImage: 'https://cdn-icons-png.flaticon.com/512/5968/5968242.png' },
   { tech: 'JavaScript', percentage: 95, urlImage: 'https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png' },
@@ -49,8 +50,7 @@ const Skills = (props: Props) => {
           <Skill
             key={index}
             directionLeft={index % 2 === 0}
-            percentage={tech.percentage}
-            urlImage={tech.urlImage}
+            skill={tech}
           />
         ))}
       </div>

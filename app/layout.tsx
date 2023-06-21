@@ -30,14 +30,11 @@ export default function RootLayout({
 
 // TODO
 // - Add a favicon
-// - Interfaces para Skills Objeto y Skill Destructurado
 // - Responsive Web Design -> Skills
-// - Experience Proyectos
-// - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
-// - Parallax Effect
-// - Particle.js
-// - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS
 // - Custom Cursor
-// - Download Resume
-// - Sanity.io
+// - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
+// - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS
+// - Particle.js
+// - Sanity.io -> Firebase API
+// - Parallax Effect
 // - Deploy Backend - Deploy Frontend

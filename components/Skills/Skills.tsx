@@ -33,7 +33,7 @@ const Skills = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       viewport={{ once: true }}
-      className="pt-10 h-full w-full flex flex-col justify-evenly items-center"
+      className="pt-10 h-full w-full flex flex-col justify-evenly items-center overflow-x-hidden"
     >
       <div className="text-center space-y-4">
         <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">

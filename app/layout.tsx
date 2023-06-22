@@ -30,6 +30,7 @@ export default function RootLayout({
 
 // TODO
 // - Add a favicon
+// - ToUpButton - Fix overflow-x-hidden
 // - Custom Cursor
 // - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
 // - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS

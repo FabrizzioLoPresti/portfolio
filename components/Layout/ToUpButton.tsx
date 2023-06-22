@@ -27,20 +27,17 @@ const transition: Transition = {
 
 const ToUpButton = (props: Props) => {
   return (
-    <div className='sticky bottom-5 w-full z-30 overflow-x-hidden'>
-      <div className='flex items-center justify-end px-5 md:px-10 overflow-x-hidden'>
+      <div className='sticky bottom-5 right-10 flex items-center justify-end px-5 md:px-10'>
         <motion.div
           variants={iconVariants}
           animate="animate"
           transition={transition}
-          className='overflow-x-hidden'
         >
           <Link to={'body'} smooth={true} duration={1000}>
             <ArrowUpCircleIcon className='h-10 w-10 text-gray-500 cursor-pointer' />
           </Link>
         </motion.div>
       </div>
-    </div>
   )
 }
 

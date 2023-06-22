@@ -1,17 +1,19 @@
-'use client'
+"use client";
 
-import { useState, useEffect } from "react"
-import { motion } from "framer-motion"
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useIsSmallScreen } from "@/hooks/useIsSmallScreen";
 
-type Props = {}
+type Props = {};
 
 const CursorFollow = (props: Props) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const isSmallScreen = useIsSmallScreen(768);
 
   useEffect(() => {
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
 
@@ -19,11 +21,13 @@ const CursorFollow = (props: Props) => {
     setPosition({ x: event.clientX, y: event.clientY });
   };
   return (
-    <div
-      className="fixed top-0 left-0 w-10 h-10 bg-transparent border border-gray-400 rounded-full pointer-events-none animate-pulse"
-      style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
-    />
-  )
-}
+    !isSmallScreen && (
+      <div
+        className="fixed top-0 left-0 w-10 h-10 bg-transparent border border-gray-400 rounded-full pointer-events-none animate-pulse"
+        style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
+      />
+    )
+  );
+};
 
-export default CursorFollow
+export default CursorFollow;

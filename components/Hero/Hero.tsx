@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundParticles from './BackgroundParticles'
 import BackgroundCircles from './BackgroundCircles'
@@ -25,7 +26,13 @@ const Hero = (props: Props) => {
     <div className='-mt-6 h-screen flex flex-col justify-center items-center text-center overflow-hidden'>
       <BackgroundParticles />
       <BackgroundCircles />
-      <div className='space-y-8 z-20'>
+      <motion.div 
+        initial={{ opacity: 0, scale: 0.5, y: -100 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+        className='space-y-8 z-20'
+      >
         <Image
           src={Picture}
           alt='Fabrizzio Lo Presti'
@@ -39,8 +46,7 @@ const Hero = (props: Props) => {
           <Cursor cursorColor='#F7AB0A' />
         </h1>
       </div>
-      </div>
-      
+      </motion.div>
     </div>
   )
 }

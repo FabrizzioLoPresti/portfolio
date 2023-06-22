@@ -9,7 +9,6 @@ type Props = {};
 const techs: ISkill[] = [
   { tech: 'HMTL', percentage: 95, urlImage: 'https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png' },
   { tech: 'CSS', percentage: 100, urlImage: 'https://cdn-icons-png.flaticon.com/512/5968/5968242.png' },
-  { tech: 'JavaScript', percentage: 95, urlImage: 'https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png' },
   { tech: 'TypeScript', percentage: 90, urlImage: 'https://icons.veryicon.com/png/o/business/vscode-program-item-icon/typescript-def.png' },
   { tech: 'React', percentage: 100, urlImage: 'https://icons.veryicon.com/png/o/application/skills-section/react.png' },
   { tech: 'Next.js', percentage: 85, urlImage: 'https://static-00.iconduck.com/assets.00/nextjs-icon-2048x2048-eugu5rfi.png' },

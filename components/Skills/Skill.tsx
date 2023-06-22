@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Skill } from "@/interfaces/Skill"
+import { useIsSmallScreen } from "@/hooks/useIsSmallScreen"
 
 type Props = {
   directionLeft?: boolean
@@ -8,11 +9,13 @@ type Props = {
 }
 
 const Skill = ({ directionLeft, skill }: Props) => {
+  const isSmallScreen = useIsSmallScreen(768)
+
   return (
     <div className="group flex cursor-pointer">
       <motion.div
         initial={{
-          x: directionLeft ? -200 : 200,
+          x: isSmallScreen ? 0 : directionLeft ? -100 : 100,
           opacity: 0,
         }}
         whileInView={{

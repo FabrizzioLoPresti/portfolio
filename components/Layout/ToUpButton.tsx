@@ -27,7 +27,7 @@ const transition: Transition = {
 
 const ToUpButton = (props: Props) => {
   return (
-      <div className='sticky bottom-5 right-10 flex items-center justify-end px-5 md:px-10'>
+      <div className='fixed bottom-11 right-5 md:right-10 flex items-center justify-end'>
         <motion.div
           variants={iconVariants}
           animate="animate"

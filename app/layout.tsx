@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Header from '@/components/Layout/Header'
 import Footer from '@/components/Layout/Footer'
 import ToUpButton from '@/components/Layout/ToUpButton'
+import CursorFollow from '@/components/Layout/CursorFollow'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} overflow-x-hidden`} id='body'>
         <Header />
+        <CursorFollow />
         {children}
         <ToUpButton />
         <Footer />
@@ -30,8 +32,6 @@ export default function RootLayout({
 
 // TODO
 // - Add a favicon
-// - ToUpButton - Fix overflow-x-hidden
-// - Custom Cursor
 // - Smooth Scrolling Fullscreen Sections - Horizontal Scroll - Scrolling Indicator Top (Framer Motion)
 // - GSAP Effect - Framer Motion - Three.js - Lenis - Tailwind CSS
 // - Particle.js

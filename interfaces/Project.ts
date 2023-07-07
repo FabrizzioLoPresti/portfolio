@@ -3,5 +3,6 @@ export interface Project {
   nombre: string;
   descripcion: string;
   url: string;
+  urlGithub: string;
   urlImagen: string;
 }

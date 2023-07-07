@@ -21,6 +21,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto responsive desarrolado en Next.js 13 con TypeScript, junto a TailwindCSS, NextUI, Redux-Toolkit, Zod, Axios, GSAP, Swiper, React-Toastify, Heroicons que consiste en una tienda de suplementos deportivos y artículos de gimnasio. Cuenta con un carrito de compras, un buscador de productos, un sistema de autenticación y un panel de administración para gestionar cuenta del usuario e historial de compras.",
       url: "https://404ecommerce.netlify.app",
+      urlGithub: "https://github.com/404-Suplementos-Deportivos/frontend_ecommerce",
       urlImagen: "/img/projects/404Ecommerce.png",
     },
     {
@@ -28,6 +29,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrolado en Next.js 13 con TypeScript, junto a AntDesign, Redux-Toolkit, Zod, Axios, React-PDF, Chart.js, react-chartjs-2, que consiste en un panel de administración para una tienda de suplementos deportivos y artículos de gimnasio. Cuenta con un CRUD completo para productos, categorías, usuarios, pedidos (compras y ventas), control de stock, un sistema de autenticación y un sistema de reportes de ventas.",
       url: "https://404administration.netlify.app",
+      urlGithub: "https://github.com/404-Suplementos-Deportivos/frontend_administracion",
       urlImagen: "/img/projects/404EcommerceAdmin.png",
     },
     {
@@ -35,6 +37,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en React.js 18 utilizando Vite, junto a React-Bootstrap y Axios para realizar consulta a API externa. Consiste en un buscador de bebidas por nombre y categoría de bebida.",
       url: "https://buscador-bebidas-cursoreact.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/buscadorbebidas",
       urlImagen: "/img/projects/BuscadorBebidas.png",
     },
     {
@@ -42,6 +45,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en React.js 18 utilizando Vite, junto a TailwindCSS y Spinkit. Consiste en un cotizador de seguros de autos, donde se calcula el precio del seguro en base a la marca, año y tipo de plan del auto.",
       url: "https://cotizador-seguros-cursoreact.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/cotizadorseguros",
       urlImagen: "/img/projects/CotizadorSeguros.png",
     },
     {
@@ -49,6 +53,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en React.js 18 utilizando Vite y los propios Custom Hooks de React.js, junto a Styled-Components y Axios para consulta a API externa. Consiste en un cotizador de criptomonedas, donde se calcula el precio de la criptomoneda en base a la moneda seleccionada.",
       url: "https://cotizador-crypto-cursoreact.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/cotizadorcrypto",
       urlImagen: "/img/projects/CotizadorCriptomonedas.png",
     },
     {
@@ -56,6 +61,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en React.js 18 utilizando Vite, junto a CSS Modules, react-circular-progressbar para gráfico circular interactivo y react-swipeable-list para selección de opciones basado en Drag and Drop. Consiste en un planificador de gastos, donde se calcula el porcentaje de gastos en base a los ingresos y gastos ingresados.",
       url: "https://planificador-gastos-cursoreact.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/planificadorgastos",
       urlImagen: "/img/projects/PlanificadorGastos.png",
     },
     {
@@ -63,6 +69,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en React.js 18 utilizando Vite, junto a TailwindCSS y React Router DOM para múltiples páginas, almacenando la información en Local Storage. Consiste en un administrador de pacientes, donde se pueden crear, eliminar y editar pacientes.",
       url: "https://administrador-pacientes-cursoreact.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/administradorpacientes",
       urlImagen: "/img/projects/AdministradorPacientes.png",
     },
     {
@@ -70,6 +77,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en HTML, CSS y JavaScript. Consiste en una tienda de muebles con un diseño responsive y moderno utilizando Flexbox y Grid Layout.",
       url: "https://ecommerce-cursocssgridflexbox.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/Curso-CSSGridFlexbox/tree/main/06-Ecommerce-RWD",
       urlImagen: "/img/projects/TiendaMuebles.png",
     },
     {
@@ -77,6 +85,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en HTML, CSS y JavaScript. Consiste en una landing page orientada a un producto tecnológico con un diseño responsive y moderno utilizando Flexbox y Grid Layout.",
       url: "https://techpro-cursocssgridflexbox.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/Curso-CSSGridFlexbox/tree/main/07-TechPRO",
       urlImagen: "/img/projects/TechPRO.png",
     },
     {
@@ -84,6 +93,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en HTML, CSS y JavaScript. Consiste en una landing page orientada a un producto arquitectónico con un diseño responsive y moderno utilizando Flexbox y Grid Layout.",
       url: "https://arquitecturabosque-cursocssgridflexbox.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/Curso-CSSGridFlexbox/tree/main/08-ArquitecturaBosque",
       urlImagen: "/img/projects/ArquitecturaBosque.png",
     },
     {
@@ -91,6 +101,7 @@ const Projects = (props: Props) => {
       descripcion:
         "Proyecto desarrollado en HTML, CSS y JavaScript. Consiste en una landing page orientada a una aplicación móvil con un diseño responsive y moderno utilizando Flexbox y Grid Layout.",
       url: "https://nucleus-cursocssgridflexbox.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/Curso-CSSGridFlexbox/tree/main/10-Nucleus",
       urlImagen: "/img/projects/NucleusApp.png",
     },
   ];
@@ -139,6 +150,11 @@ const Projects = (props: Props) => {
                 </h4>
                 <p className="text-lg text-center md:text-left px-2 md:px-0">
                   {project.descripcion}
+                </p>
+                <p className="font-light text-gray-300 text-center md:text-left">
+                  <Link href={project.urlGithub} passHref target="_blank">
+                    Repositorio de Github
+                  </Link>
                 </p>
               </div>
             </motion.div>

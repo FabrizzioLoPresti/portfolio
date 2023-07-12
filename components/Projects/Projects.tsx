@@ -37,7 +37,8 @@ const Projects = (props: Props) => {
       nombre: "Rick and Morty App",
       descripcion:
         "Proyecto desarrolado en Next.js 13 con TypeScript, haciendo uso de Axios para consulta de API de Rick and Morty, Redux-Toolkit para el manejo de estados globales, TailwindCSS para estilos y Framer Motion para animaciones.",
-      url: "https://rickandmorty-nextjs.netlify.app",
+      // url: "https://rickandmorty-nextjs.netlify.app",
+      url: "https://rick-and-morty-ivory-chi.vercel.app/",
       urlGithub: "https://github.com/FabrizzioLoPresti/rick-and-morty",
       urlImagen: "/img/projects/RickAndMortyApp.png",
     },

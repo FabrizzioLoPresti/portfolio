@@ -15,6 +15,7 @@ type Props = {};
 const Projects = (props: Props) => {
   const isSmallScreen = useIsSmallScreen(768);
 
+  // TODO: Obtener de Sanity.io
   const projects: Project[] = [
     {
       nombre: "404 Ecommerce",
@@ -31,6 +32,14 @@ const Projects = (props: Props) => {
       url: "https://404administration.netlify.app",
       urlGithub: "https://github.com/404-Suplementos-Deportivos/frontend_administracion",
       urlImagen: "/img/projects/404EcommerceAdmin.png",
+    },
+    {
+      nombre: "Rick and Morty App",
+      descripcion:
+        "Proyecto desarrolado en Next.js 13 con TypeScript, haciendo uso de Axios para consulta de API de Rick and Morty, Redux-Toolkit para el manejo de estados globales, TailwindCSS para estilos y Framer Motion para animaciones.",
+      url: "https://rickandmorty-nextjs.netlify.app",
+      urlGithub: "https://github.com/FabrizzioLoPresti/rick-and-morty",
+      urlImagen: "/img/projects/RickAndMortyApp.png",
     },
     {
       nombre: "Buscador de Bebidas",

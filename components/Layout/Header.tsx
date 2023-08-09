@@ -61,7 +61,7 @@ const Header = (props: Props) => {
             className="flex flex-row items-center justify-center text-gray-300 cursor-pointer gap-3 overflow-y-hidden"
           >
             <div className="border border-[#F7AB0A] px-3 py-2 animate-pulse hover:borderGlowEffect">
-              <a className="uppercase inline-flex text-sm text-gray-400 select-none" href={'/CV_LoPrestiFabrizzio.pdf'} download>
+              <a className="uppercase inline-flex text-sm text-gray-400 select-none" href={'/LoPrestiFabrizzio_CV.pdf'} download>
                 My Resume
               </a>
             </div>
